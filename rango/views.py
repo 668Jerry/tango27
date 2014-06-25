@@ -1,8 +1,8 @@
 from django.shortcuts import render
 
-from django.http import HttpResponse
-def index(request):
-    return HttpResponse("Rango says hello world!")
+# from django.http import HttpResponse
+# def index(request):
+#     return HttpResponse("Rango says hello world!")
 
 from django.template import RequestContext
 from django.shortcuts import render_to_response

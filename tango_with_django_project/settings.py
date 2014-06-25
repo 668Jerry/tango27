@@ -125,3 +125,9 @@ TEMPLATE_DIRS = (
 # #  Don't forget to use absolute paths, not relative paths.
 #     join(BASE_DIR,  'templates'),
 # )
+
+STATIC_PATH = os.path.join(PROJECT_PATH, 'static')
+STATIC_URL = '/static/' # You may find this is already defined as such.
+STATICFILES_DIRS = (
+    STATIC_PATH,
+)
